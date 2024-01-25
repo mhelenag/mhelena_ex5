@@ -1,0 +1,172 @@
+*{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#page{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+/*títulos*/
+
+#titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color: #e9d9eb;
+    font-weight: 700;
+    accent-color: beige;
+    position: fixed;
+    top: 2%;
+    left: 33%;
+}
+
+#titulo2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+
+#titulo3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+
+#titulo4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightslategray
+}
+
+#titulo5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+
+
+body{
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    min-width: 20%;
+    max-width: 100%;
+    box-sizing: content-box;
+    }
+    
+    ul{ 
+        list-style-type: square;
+        font-size: 14px;
+    }
+
+/*menu de navegação*/
+nav li{
+    display: inline-block;
+    margin-right: 120px;
+    text-align: left;
+}
+
+/*opção para a página dos créditos*/
+li:nth-child(4) a {
+    background-color: rgb(243, 187, 166);
+    text-align: right;
+    padding-left: 0px;
+}
+
+#créditos{
+    background-color: rgb(243, 187, 166);
+}
+
+.menu ul{
+display: flex;
+justify-content: space-around;
+padding: 10px 0;
+
+}
+
+ul{ 
+    list-style-type: square;
+    font-size: 14px;
+}
+
+header{
+    background-color: #e9d9eb;
+    padding: 50px;
+    text-align: center;
+}
+
+main{
+    padding: 20px;
+    background-color: beige;
+}
+
+p{
+    justify-content: left;
+}
+
+em{ 
+    font-style: italic;
+    text-transform: initial;
+}
+
+aside{
+    background-color:#e9d9eb;
+    position: sticky right;
+    padding: 20px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-left: 30px;
+    float: right;
+    min-width: 10%;
+    max-width: 21.5%;
+    font-size: 14px;
+    z-index: 2;
+}
+
+aside h2 img ul li{
+    min-width: 10%;
+}
+
+main aside img{
+    position: relative;
+    z-index: 2;
+}
+
+ins{
+    text-align: center;
+}
+
+.maisinfo{
+    background-color: #f0f0f0;
+    font-size: 12px;
+}
+
+footer{
+    background-color: #e9d9eb;
+    padding: 10px;
+    text-align: center;
+}
+
+video{
+    align-content: center;
+}
+
+figure{
+    margin: 0;
+}
+
+/*tabela*/
+table,
+td{
+    border: 1px solid #333;
+}
+thead,
+tfoot{
+    background-color: #333;
+    color: #fff;
+}
+
